@@ -1,0 +1,2 @@
+INSERT INTO person(id, first_name, last_name, birth_day, phone_number, email) VALUES(1, 'Feng', 'Wei', '1985-06-10', '418-999-4585', 'feng.wei@mail.com');
+INSERT INTO person(id, first_name, last_name, birth_day, phone_number, email) VALUES(2, 'Paul', 'Phoenix', '1985-10-10', '512-888-4000', 'paul.phoenix@mail.com');
