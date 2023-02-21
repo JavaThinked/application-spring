@@ -7,12 +7,12 @@ import java.util.List;
 
 public class TestData {
 
-    public static Long ID = 1L;
-    public static String FIRST_NAME = "Polo";
-    public static String LAST_NAME = "Wang";
-    public static LocalDate BIRTH_DAY = LocalDate.now();
-    public static String PHONE_NUMBER = "555-444-9922";
-    public static String EMAIL = "polo.wang@mail.com";
+    public static final Long ID = 1L;
+    public static final String FIRST_NAME = "Polo";
+    public static final String LAST_NAME = "Wang";
+    public static final LocalDate BIRTH_DAY = LocalDate.now();
+    public static final String PHONE_NUMBER = "555-444-9922";
+    public static final String EMAIL = "polo.wang@mail.com";
 
     public static Person createPerson() {
         var person = new Person();

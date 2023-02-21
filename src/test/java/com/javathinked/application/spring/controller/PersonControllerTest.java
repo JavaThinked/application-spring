@@ -33,11 +33,6 @@ class PersonControllerTest implements WithAssertions {
     @MockBean
     private GenericService<Person> service;
 
-    @BeforeEach
-    void setUp() {
-
-    }
-
     @Test
     void givenController_whenFindingPersonById_thenReturns_200_OK() throws Exception {
         when(service.findById(anyLong())).thenReturn(TestData.createPerson());

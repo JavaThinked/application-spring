@@ -18,9 +18,8 @@ import java.util.List;
 @RestController
 public class PersonController {
 
-    private GenericService<Person> service;
+    private final GenericService<Person> service;
 
-    @Autowired
     public PersonController(GenericService<Person> service) {
         this.service = service;
     }

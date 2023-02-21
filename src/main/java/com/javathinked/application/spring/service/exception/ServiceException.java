@@ -2,10 +2,6 @@ package com.javathinked.application.spring.service.exception;
 
 public class ServiceException extends RuntimeException {
 
-    public ServiceException() {
-        super();
-    }
-
     public ServiceException(String message) {
         super(message);
     }

@@ -29,7 +29,7 @@ class PersonControllerITest {
     @Autowired
     private WebTestClient webTestClient;
 
-    private static int PERSON_ID = 1;
+    private static final int PERSON_ID = 1;
 
     @BeforeEach
     void setUp() {
